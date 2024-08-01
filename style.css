@@ -3,7 +3,7 @@
     --cinza-secundario: #F9F9F9;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
-    --fonte-principal:'Inter'; 
+    --fonte-principal: 'Inter';
 }
 
 body {
@@ -23,6 +23,8 @@ body {
     background-image: url(Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -46,19 +48,20 @@ body {
     border: 2px solid var(--branco-principal);
 }
 
-.container__aviso{
-font-size: 12px;
-color: var(--cinza-secundario);
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
 }
 
-.container__titulo{
-font-size: 28px;
-font-weight: 700;
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
 }
-.conteiner__imagem{
+
+.conteiner__imagem {
     margin: 1em 0 2em 0;
 }
 
-.container__caixa{
+.container__caixa {
     margin: 0 6em;
 }
